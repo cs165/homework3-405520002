@@ -1,3 +1,28 @@
 /*
 TODO(you): Write any additional styles you need here.
 */
+#choices1 ,#choices2,#choices3{ 
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.25em;
+    text-align: left;
+    background-color: #fafafa;
+    border: none;
+    border-bottom: 2px solid #d2d2d2;
+    box-sizing: border-box;
+    font-size: 1.5em;
+    height: 2.5em;
+    margin: 0.5em 0;
+    padding-left: 0.75em;
+    width: 100%;
+}
+@keyframes mymove{
+from {
+    transform: scaleY(0);
+    transform-origin:bottom ;
+   
+  }
+  to {
+    transform: scaleY(-100%);
+    transform-origin:100;
+  }
+}
